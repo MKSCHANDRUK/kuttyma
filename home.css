@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.form-box
+{
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.747)),url(home.jpeg);
+    background-size: cover;
+
+}
+.title{
+    color: white;
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: 30px 0;
+    justify-content: center;
+    font-size: 45px;
+    animation: title;
+    animation-duration: 3s;
+}
+.para{
+    text-align: center;
+    position: relative;
+    font-size:25px;
+    line-height: 100px;
+    color:pink;
+    animation: 2.5s move linear forwards;
+    
+}
+.hbd{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    line-height: 100px;
+    animation: hbd;
+    animation-duration: 3s;
+}
+@keyframes title{
+    0%{
+        right: 100%;
+    }
+    100%
+    {
+        right: 0%;
+    }
+
+}
+@keyframes move{
+    0%
+    {
+        left: 100%;
+    }
+    100%
+    {
+        left: 0%;
+    }
+}
+@keyframes hbd{
+    0%{
+        right:100%
+    }
+    100%
+    {
+        right: 0%;
+    }
+}
+@media only screen and (max-width:600px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'poppins',sans-serif;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+        
+    }
+    .form-box
+    {
+        
+        background:linear-gradient(rgba(0, 0, 0, 0.336),rgba(0, 0, 0, 0.747)),url(home.jpeg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: 100% 580px 350px;
+        background-attachment: fixed;
+        
+    
+    }
+    .title{
+        color: white;
+        display: flex;
+        position: relative;
+        text-align: center;
+        margin: 30px 0;
+        justify-content: center;
+        font-size: 15px;
+        animation: title;
+        animation-duration: 3s;
+    }
+    .para{
+        text-align: center;
+        position: relative;
+        font-size:15px;
+        line-height: 50px;
+        color:pink;
+        animation: 2.5s move linear forwards;
+        
+    }
+    .hbd{
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        line-height: 50px;
+        animation: hbd;
+        animation-duration: 3s;
+    }
+    @keyframes title{
+        0%{
+            right: 100%;
+        }
+        100%
+        {
+            right: 0%;
+        }
+    
+    }
+    @keyframes move{
+        0%
+        {
+            left: 100%;
+        }
+        100%
+        {
+            left: 0%;
+        }
+    }
+    @keyframes hbd{
+        0%{
+            right:100%
+        }
+        100%
+        {
+            right: 0%;
+        }
+    }
+}
